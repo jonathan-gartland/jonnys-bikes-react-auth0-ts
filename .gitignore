@@ -314,7 +314,7 @@ $RECYCLE.BIN/
 /build
 
 # misc
-.env.local
+.env.local.txt
 .env.development.local
 .env.test.local
 .env.production.local
