@@ -18,7 +18,7 @@
     "eject": "react-scripts eject",
     "lint": "eslint . --ext .ts,.tsx --fix",
     "api": "json-server --host 0.0.0.0 --port 6060 --watch json-server/db.json --routes json-server/routes.json",
-    "start": "nodemon src/index.ts",
+    "start": "cross-env PORT=4040 react-scripts start",
     "build": "rimraf dist && tsc",
     "ts.check": "tsc --project tsconfig.json",
     "add-build": "git add dist"
